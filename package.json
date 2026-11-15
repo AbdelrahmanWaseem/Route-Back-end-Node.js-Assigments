@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "eslint": "^10.15.0",
+    "prettier": "^3.10.1"
+  },
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
