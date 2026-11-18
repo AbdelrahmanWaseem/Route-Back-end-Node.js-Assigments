@@ -55,26 +55,26 @@ const prompt = require("prompt-sync")();
 //     case 3:
 //         console.log("Tuesday");
 //         break;
-            
+
 //     case 4:
 //         console.log("wednsday");
 //         break;
-    
+
 //     case 5:
 //         console.log("Thursday");
 //         break;
-    
+
 //      case 6:
 //         console.log("Friday");
 //         break;
-       
+
 //     case 7:
 //         console.log("Saturday");
 //         break;
 
 //         default:
 //             console.log("invalid number");
-            
+
 // }
 // --------------------------------------------
 
@@ -85,3 +85,44 @@ const prompt = require("prompt-sync")();
 // console.log(sLength);
 
 // -----------------------------------------------
+
+// Q8: let input = Number(prompt('Enter a number: '))
+
+// function div() {
+//     if(input % 3 == 0 || input % 15 == 0){
+//         console.log("divisble by both");
+//     }
+//     else console.log("not divisbile by both");
+// }
+
+// div();
+
+// Q9: const sqr = () =>{
+//     let input = Number(prompt('Enter a number: '))
+//     let res = input * input;
+//     return (res);
+// }
+
+// console.log(sqr());
+
+// ---------------------------------------------------
+// Q10 : function Person () {
+
+//     const person = {
+//         name: "John",
+//         age : "25"
+//     };
+
+//     console.log(person.name + " is " + person.age +" Years "+ "old");
+// }
+
+// Person();
+// ------------------------------------------------------
+
+// Q11: function Sum(a,b,c,d,e) {
+//     let res = a+b+c+d+e;
+//     console.log(res);
+// }
+// Sum(1,2,3,4,5);
+// ------------------------------------------------------
+
