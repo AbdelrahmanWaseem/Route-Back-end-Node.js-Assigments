@@ -188,3 +188,21 @@ const prompt = require("prompt-sync")();
 // }
 
 // sentence();
+
+
+// Essay questions:
+// 1- forEach: An array method that executes a callback for every element. It cannot use break/continue and does not wait for async/await operations. Use it for simple, synchronous array iterations.
+// for...of: A loop construct that works on any iterable (arrays, strings, maps, sets). It supports break/continue and properly awaits async operations sequentially. Use it when you need early exits, async loops, or to iterate over non-array iterables.
+
+// 2- Hoisting: JavaScript's behavior of moving variable and function declarations to the top of their scope before execution (var is initialized as undefined; function declarations are hoisted completely).
+// Temporal Dead Zone (TDZ): The period between entering a scope and the actual declaration line where let and const variables exist in memory but cannot be accessed, throwing a ReferenceError if referenced early.
+
+// 3-== (Loose Equality): Compares values only after performing automatic type conversion (coercion). Example: 5 == "5" is true.
+// === (Strict Equality): Compares both value and type without any conversion. Example: 5 === "5" is false.
+
+
+// 4-How it works: Code inside try is executed; if an error occurs, execution immediately jumps to catch(error) to handle it gracefully without crashing the application.
+// Importance in Async: When using async/await, a rejected Promise throws an exception. try-catch catches these rejections (e.g., failed API calls or database errors) to prevent unhandled promise rejections and server crashes.
+
+// 5- Type Conversion (Explicit): Manually converting a value from one type to another using built-in functions.
+// Type Coercion (Implicit): JavaScript automatically converting types behind the scenes during operations.
