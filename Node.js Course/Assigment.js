@@ -168,3 +168,14 @@ const prompt = require("prompt-sync")();
 // findLargest();
 
 
+// Q14: const info  = () =>{
+//     const person = {
+//         name : "waseem",
+//         age : 30
+//     }
+//     console.log(Object.keys(person));
+    
+// }
+
+// info();
+
