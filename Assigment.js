@@ -126,3 +126,28 @@ const prompt = require("prompt-sync")();
 // Sum(1,2,3,4,5);
 // ------------------------------------------------------
 
+// Q12: const Success = new Promise((resolve,reject) => {
+//     const success = true;
+
+//     setTimeout(() => {
+//         if(success){
+//             resolve("Success")
+//         }
+//         else {
+//             reject("failed")
+//         }
+//     }, 3000);
+// });
+
+// async function getData() {
+//     try{
+//         const data = await Success;
+//         console.log(data);
+//     }
+//     catch(error){
+//         console.error(error);
+        
+//     }
+// }
+
+// getData();
