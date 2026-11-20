@@ -146,12 +146,12 @@ const prompt = require("prompt-sync")();
 //     }
 //     catch(error){
 //         console.error(error);
-        
+
 //     }
 // }
 
 // getData();
-
+// ------------------------------------------
 // Q13: function findLargest() {
 //     let arr = [1,3,7,2,4]
 //     let largest = arr[0]
@@ -159,23 +159,32 @@ const prompt = require("prompt-sync")();
 //         if(arr[i] > largest){
 //             largest = arr[i]
 //         }
-        
+
 //     }
 //     console.log(largest);
-    
+
 // }
 
 // findLargest();
 
-
+// ----------------------------------------------
 // Q14: const info  = () =>{
 //     const person = {
 //         name : "waseem",
 //         age : 30
 //     }
 //     console.log(Object.keys(person));
-    
+
 // }
 
 // info();
+// ------------------------------------------
+// Q15: const sentence = () =>{
+//     let text = "The quick brown fox"
+//     const arr = text.split(" ")
 
+//     console.log(arr);
+
+// }
+
+// sentence();
