@@ -1,5 +1,5 @@
 const prompt = require("prompt-sync")();
-//  pushing assigments to git hub
+//  pushing assigments to git hub:
 // git add .
 // git commit -m "Update Assignment 1"
 // git push
@@ -152,6 +152,19 @@ const prompt = require("prompt-sync")();
 
 // getData();
 
-function findLargest() {
+// Q13: function findLargest() {
+//     let arr = [1,3,7,2,4]
+//     let largest = arr[0]
+//     for(let i = 1; i < arr.length; i++){
+//         if(arr[i] > largest){
+//             largest = arr[i]
+//         }
+        
+//     }
+//     console.log(largest);
     
-}
+// }
+
+// findLargest();
+
+
