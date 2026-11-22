@@ -206,3 +206,6 @@ const prompt = require("prompt-sync")();
 
 // 5- Type Conversion (Explicit): Manually converting a value from one type to another using built-in functions.
 // Type Coercion (Implicit): JavaScript automatically converting types behind the scenes during operations.
+
+
+
